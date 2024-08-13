@@ -8,10 +8,10 @@ To set up the testing environment, install the following dependencies:
 
 ### Core Dependencies
 
-- **@testing-library/react**: A set of helpers for testing React components by simulating user interactions.
-- **@types/jest**: TypeScript type definitions for Jest, ensuring type safety in your tests.
-- **jest-environment-jsdom**: Provides a browser-like environment (using jsdom) for Jest to run tests, making it possible to test DOM-related code.
-- **@testing-library/jest-dom**: Custom Jest matchers to test the state of the DOM more easily.
+- **`@testing-library/react`**: A set of helpers for testing React components by simulating user interactions.
+- **`@types/jest`**: TypeScript type definitions for Jest, ensuring type safety in your tests.
+- **`jest-environment-jsdom`**: Provides a browser-like environment (using jsdom) for Jest to run tests, making it possible to test DOM-related code.
+- **`@testing-library/jest-dom`**: Custom Jest matchers to test the state of the DOM more easily.
 
 ```bash
 npm install --save-dev @testing-library/react @types/jest jest-environment-jsdom @testing-library/jest-dom
@@ -21,10 +21,10 @@ npm install --save-dev @testing-library/react @types/jest jest-environment-jsdom
 
 These packages are needed to transpile and run your tests:
 
-- **jest**: A delightful JavaScript testing framework with a focus on simplicity.
-- **babel-jest**: Integrates Babel with Jest, allowing you to write tests in modern JavaScript.
-- **@babel/preset-env**: A Babel preset that compiles modern JavaScript (ES6+) down to a version compatible with older environments or specific browser targets.
-- **@babel/preset-react**: A Babel preset that enables Babel to transpile JSX syntax used in React components, allowing you to write React components with JSX.
+- **`jest`**: A delightful JavaScript testing framework with a focus on simplicity.
+- **`babel-jest`**: Integrates Babel with Jest, allowing you to write tests in modern JavaScript.
+- **`@babel/preset-env`**: A Babel preset that compiles modern JavaScript (ES6+) down to a version compatible with older environments or specific browser targets.
+- **`@babel/preset-react`**: A Babel preset that enables Babel to transpile JSX syntax used in React components, allowing you to write React components with JSX.
 
 ```bash
 npm install jest babel-jest @babel/preset-env @babel/preset-react
@@ -42,9 +42,9 @@ These dependencies allow Jest to handle SVG imports and CSS module imports corre
 
 For further customization of the Jest setup in your project, refer to the following configuration files:
 
-- **internal/jest.setup.js**: Used to set up any additional configurations or global mocks required before running tests.
-- **jest.config.js**: The main configuration file for Jest. You can customize your Jest environment, including how tests are collected, transformed, and reported.
-- **babel.config.cjs**: The Babel configuration file, which helps Jest transpile modern JavaScript (ES6+) and JSX code into a format that can be executed in the test environment.
+- **`internal/jest.setup.js`**: Used to set up any additional configurations or global mocks required before running tests.
+- **`jest.config.js`**: The main configuration file for Jest. You can customize your Jest environment, including how tests are collected, transformed, and reported.
+- **`babel.config.cjs`**: The Babel configuration file, which helps Jest transpile modern JavaScript (ES6+) and JSX code into a format that can be executed in the test environment.
 
 ## ESLint Setup
 
