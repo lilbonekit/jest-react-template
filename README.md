@@ -69,4 +69,3 @@ npm install --save-dev eslint eslint-config-airbnb eslint-config-prettier eslint
 ```
 
 Check also eslint **`vite.config.js`** and **`eslintrc`** settings
-# jest-react-template
