@@ -13,6 +13,9 @@ const config = {
 		'^.+\\.svg$': 'jest-svg-transformer', // For SVGs
 	},
 	moduleFileExtensions: ['js', 'jsx'],
+	transformIgnorePatterns: [
+		'node_modules/(?!(module-to-transform|@testing-library)/)',
+	],
 }
 
 export default config
