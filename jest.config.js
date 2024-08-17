@@ -1,7 +1,7 @@
 /** @type {import('jest').Config} */
 const config = {
 	collectCoverage: true,
-	collectCoverageFrom: ['<src/**/*.js,jsx>'],
+	collectCoverageFrom: ['<rootDir>/src/**/*.{js,jsx}'],
 	coverageDirectory: 'coverage',
 	testEnvironment: 'jsdom',
 	setupFilesAfterEnv: ['<rootDir>/internal/jest.setup.js'],
